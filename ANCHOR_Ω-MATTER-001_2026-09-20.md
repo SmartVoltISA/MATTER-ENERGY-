@@ -123,3 +123,22 @@ The alternative `H=B R B^T` was tested and rejected as the canonical operator be
 No physical quantum or dark-matter claim is promoted by this result.
 
 **Rule preserved:** FACT → CHECK → RESULT → DECISION → FIXATION.
+
+
+### ADDENDUM 2 — FINITE-SIZE SCALING
+
+Follow-up scaling on 1D cycles `n={20,40,80,160}` was executed.
+
+Odd signed topology produced:
+
+`λ₀ = {0.0246233, 0.00616533, 0.00154193, 0.000385519}`
+
+with
+
+`λ₀ n² → 9.8693 ≈ π²`
+
+and fitted exponent approximately `-2.000`.
+
+Therefore the signed-cycle spectral shift survives at finite size but its lowest mode closes as `n^-2`.
+
+**Decision:** no size-independent gap in this construction. Proceed to `ψ_R → |ψ_R|² → ρ_R` rather than interpreting the finite spectral shift as mass.
