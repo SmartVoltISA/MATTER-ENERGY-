@@ -76,3 +76,50 @@ This anchor preserves the state reached on 2026-09-20.
 Previous results remain historical and are not overwritten.
 
 **Rule:** FACT → CHECK → RESULT → DECISION → FIXATION.
+
+
+---
+
+## ADDENDUM — Ω-MATTER-001 → H_R BRIDGE COMPLETED
+
+The decisive mathematical bridge `RELATIONS → H_R` has now been tested and fixed in:
+
+`SmartVoltISA/--Math-A-New-Language-of-Mathematics/EXPERIMENT_MATTER_HR_BRIDGE_001.md`
+
+### RESULT
+
+Preferred operator:
+
+`H_R = D - A_R`
+
+where `A_R` contains the typed relation signs `r_ij ∈ {-1,+1}` and `D` is the ordinary degree matrix of the declared graph.
+
+Verified:
+
+- `H_R = H_R^T`;
+- real spectrum;
+- Schrödinger-type evolution `i dψ/dt = H_R ψ` preserves norm;
+- maximum norm error in the finite spectral run: `4.44×10^-16`;
+- 1D analytic dispersion agreement: `2.22×10^-15`;
+- relation-sign organization changes spectrum and localization;
+- 2D random-sign control increased median IPR from `0.00656` to `0.01545` in the tested 20×20 model.
+
+### NEGATIVE RESULT
+
+The alternative `H=B R B^T` was tested and rejected as the canonical operator because its spectrum is not invariant under the natural node-sign gauge transformation.
+
+### CURRENT CHAIN
+
+`typed relation → signed operator H_R → spectrum → ψ_R → norm-preserving dynamics`
+
+### STILL OPEN
+
+`|ψ_R|² → physical probability`
+
+`ρ_R → physical matter density`
+
+`ρ_R → gravitational contribution`
+
+No physical quantum or dark-matter claim is promoted by this result.
+
+**Rule preserved:** FACT → CHECK → RESULT → DECISION → FIXATION.
