@@ -142,3 +142,30 @@ and fitted exponent approximately `-2.000`.
 Therefore the signed-cycle spectral shift survives at finite size but its lowest mode closes as `n^-2`.
 
 **Decision:** no size-independent gap in this construction. Proceed to `ψ_R → |ψ_R|² → ρ_R` rather than interpreting the finite spectral shift as mass.
+
+
+### ADDENDUM 3 — MATTER / DENSITY BRIDGE
+
+The next bridge was executed in `EXPERIMENT_MATTER_DENSITY_BRIDGE_002.md`.
+
+Tested chain:
+
+`H_R → ψ_R → |ψ_R|² → fixed 2×2 coarse-grained relational density`
+
+On a 20×20 square lattice with a central normalized delta state:
+
+- total norm remained conserved to numerical precision;
+- `q_i=|ψ_i|²` remained non-negative and normalized;
+- fixed 2×2 block masses produced a directly measurable coarse-grained density;
+- all-positive, topology-preserving random-sign, and topology-randomized controls produced distinct propagation/localization behavior;
+- 12 independent random-sign seeds reproduced the sign-dependent effect at `t=20`.
+
+Representative `t=20` values:
+
+- all-positive: microscopic PR `229.52`, block PR `76.68`, max block mass `0.0254`;
+- random-sign mean ± SD: microscopic PR `121.67 ± 33.76`, block PR `54.46 ± 11.46`, max block mass `0.0632 ± 0.0278`;
+- topology-randomized all-positive: microscopic PR `148.77`, block PR `70.70`, max block mass `0.0361`.
+
+**Decision:** the mathematical bridge to a conserved coarse-grained relational density is PASS in the tested finite models. Physical probability, physical matter density, gravitational sourcing, and dark-matter interpretation remain OPEN.
+
+**Next bridge:** `coarse-grained ρ_R → effective field/dynamical response`, with preregistered response law and explicit null controls.
